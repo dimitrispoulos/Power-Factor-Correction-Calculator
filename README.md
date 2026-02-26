@@ -143,11 +143,19 @@ The application features defensive programming to ensure data validity. In this 
    java -jar PFC-Calculator.jar
 
 
----
----
+-----
+
+
+## License
+MIT License: Free to use, modify, and distribute with attribution.
+
+
+-----
+-----
 
 
 ## Developer
 **Dimitrios Poulos** <br>
 *Electrical \& Computer Engineering Student*
 * **Release Date:** February 2026
+
