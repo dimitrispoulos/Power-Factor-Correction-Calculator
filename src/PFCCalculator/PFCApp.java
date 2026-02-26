@@ -1323,6 +1323,11 @@ public class PFCApp extends javax.swing.JFrame
                     txtTargetValue.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.RED, 2));
                     throw new IllegalArgumentException("Target Reactive Power (Q) must be a positive number (>0)!");
                 }
+                if (calculator.targetQ >= calculator.initialQ) 
+                {
+                    txtTargetValue.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.RED, 2));
+                    throw new IllegalArgumentException("Target Reactive Power must be less than Initial Reactive Power!");
+                }
             }
 
             
